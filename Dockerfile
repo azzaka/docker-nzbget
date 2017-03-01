@@ -38,6 +38,6 @@ RUN \
 COPY root/ /
 
 # ports and volumes
-VOLUME /config /downloads
+VOLUME /config /shared-media
 EXPOSE 6789
 
